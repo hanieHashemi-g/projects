@@ -1,0 +1,28 @@
+@import "tailwindcss";
+@import url("fonts.googleapis.com");
+@theme {
+  --color-purple: #6C63FF;
+  --color-black: #252525;
+  --color-blackop:#25252570;
+  --color-white: #F7F7F7;
+  --color-light-gray:#CDCDCD;
+  --color-purple-op:rgba(108, 99, 255, .2);
+  --color-light-purple: #C3C1E5;
+  --color-dark-purple:#534CC2;
+  --font-kanit: "Kanit", sans-serif;
+  --text-lg:['1.125rem',
+          {
+            lineHeight: '1.75rem',
+          }];
+  --text-base:['1rem',
+          {
+            lineHeight: '1.5rem',
+          },
+        ];
+  --text-xl:['1.25rem',
+          {
+            lineHeight: '1.5rem',
+          },
+        ],
+  
+}
